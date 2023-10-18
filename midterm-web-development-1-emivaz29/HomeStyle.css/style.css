@@ -1,0 +1,39 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+
+box-sizing: border-box;
+font-family: 'Dm Serif Display';
+margin: 0;
+padding: 0;
+
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+.container-header{
+
+background: #519BEF;
+position: fixed;
+width:100%;
+top: 0;
+left: 0;
+z-index: 99;
+
+}
+
+.container-header header{
+
+max-width: 1100px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+
+
+}
